@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+    cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol317.cur), auto !important;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-image: url("bg_47.gif");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: 'EB Garamond', serif;
+    color: white;
+}
+
+.header {
+    font-family: Arial;
+    font-size: 15px;
+}
+.header .top {
+    display: grid;
+
+    background: #B36CBD ;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    width: calc( 100% - 15px );
+    height: 22px;
+    padding: 5px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-top: 6px;
+    overflow: hidden;
+}
+.header .top form {
+    justify-self: center;
+    margin: 0;
+}
+
+.header .bottom {
+    background: #F99EED;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    position: fixed;
+    left: 0;
+    top: 34px;
+    width: calc(100% - 15px );
+    color: #000;
+    height: 15px;
+}
+
+.contenedor {
+    margin-top: 70px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+
+    background: #000;
+    border: 5px double #000000;
+    border-radius: 25px;
+
+    height: 80%;
+
+}
+
+.column {
+    flex: 50%;
+}
+
+
